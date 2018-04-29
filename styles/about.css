@@ -2,6 +2,8 @@ html {
   font-size: 20px; 
   font-family: 'Slabo 27px', serif;
   background-color: LavenderBlush;
+  height: 100%;
+  width: 100%;
 }
 
 a:hover {
@@ -17,6 +19,7 @@ h1{
   text-align: center;
   margin: 2rem;
 }
+
 h2{
   text-align: center;
 }
@@ -85,10 +88,22 @@ p{
   margin-right:2rem;
 }
 
+.word2{
+  margin: 1rem;
+}
+
+.word3{
+  margin: 1rem;
+}
+
+.word4{
+  margin:1rem;
+}
+
 nav {
   background-color: darkgrey;
   text-align: center; 
-  padding: 0.5rem;
+  padding: 1rem;
   list-style: none;
 }
 
@@ -96,10 +111,11 @@ nav a{
   color: purple;
   padding-left: 2rem;
   padding-right; 2rem;
-  
 }
+
 h6 {
   text-align: center;
   margin:0;
   background-color: PaleTurquoise;
 }
+
