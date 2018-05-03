@@ -1,0 +1,262 @@
+html { 
+  font-size: 20px; 
+  font-family: 'Merienda', cursive;
+  background-color: LavenderBlush;
+  height: 100%;
+  width: 100%;
+}
+
+a:hover {
+  color:mediumaquamarine;
+  transition: all 2s ease 0s;
+}
+
+.fab:hover {
+  transform: rotate(360deg);
+  transition: all 2s ease 0s;
+}
+
+.head{
+  display: inline-flex;
+}
+
+h1{
+  text-align: center;
+  margin: 2rem;
+}
+
+h2{
+  text-align: center;
+  width:11.5rem;
+  padding:1rem;
+  background-color: rosybrown;
+  margin-left: 29rem;
+  border-radius: 8px;
+  text-shadow: 2px 2px linen;
+}
+
+h3{
+  text-align: right;
+  margin:0;
+  margin-right:2rem;
+}
+
+header{
+  background-color: PaleTurquoise;
+}
+
+.logo{
+  height: 10%;
+  width: 10%;
+  margin-left:10rem;
+}
+
+p{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-family: 'Slabo 27px', serif;
+}
+
+.word5{
+  text-align: center;
+}
+
+.picture{
+  display: inline-flex;
+}
+
+.derek{
+  width: 20%;
+  height: 30%;
+  margin-left: 5rem;
+  border-style:double;
+  border: 0.5rem solid lightyellow;
+}
+.amy{
+  width: 20%;
+  height: 30%;
+  margin-left: 7rem;
+  border-style:double;
+  border: 0.5rem solid lightyellow;
+}
+
+.nathan{
+  width: 23%;
+  height: 33%;
+  margin-left: 8rem;
+  border-style:double;
+  border: 0.5rem solid lightyellow;
+}
+
+.name{
+  display: inline-flex;
+}
+
+.name2{
+  margin-left:5rem;
+}
+
+.name3{
+  margin-left:16rem;
+}
+
+.name4{
+  margin-left:18rem;
+}
+
+.word{
+  display: inline-flex;
+  margin-left: 2rem;
+  margin-right:2rem;
+}
+
+.word2{
+  margin: 1rem;
+}
+
+.word3{
+  margin: 1rem;
+}
+
+.word4{
+  margin:1rem;
+}
+
+nav {
+  background-color: darkgrey;
+  text-align: center; 
+  padding: 1rem;
+  list-style: none;
+}
+
+nav a{
+  color: purple;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding:1rem;
+  background-color: PaleTurquoise;
+}
+
+.footer{
+  display: inline-flex;
+}
+
+.icon{
+  margin-left: 5rem;
+}
+.fab{
+  margin: 1rem;
+}
+
+h6{
+  margin: 0;
+}
+
+.class1{
+  width: 30%;
+  height: 40%;
+  margin-left: 0.8rem;
+  border-style:double;
+  border: 0.5rem solid lightyellow;
+}
+
+.class2{
+  width: 30%;
+  height: 40%;
+  margin-left: 0.8rem;
+  border-style:double;
+  border: 0.5rem solid lightyellow;
+}
+.class3{
+  width: 29%;
+  height: 30%;
+  border-style:double;
+  margin-left: 0.8rem;
+  border: 0.6rem solid lightyellow;
+}
+
+.lesson1{
+  width: 80%;
+  height: 80%;
+  margin-left:3rem;
+  border-style:double;
+  border: 0.5rem solid lightyellow;
+}
+
+.lesson2{
+  width: 90%;
+  height: 90%;
+  margin-left: 3rem;
+  border-style:double;
+  border: 0.5rem solid lightyellow;
+}
+
+.button {
+  background-color: firebrick;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  color: aliceblue;
+  display: inline-block;
+  font-size: 45px;
+  margin-top: 2rem;
+  margin-left: 4rem;
+  border-radius: 8px;
+  font-family: 'Philosopher', sans-serif;
+  text-shadow: 2px 2px blueviolet;
+}
+
+article{
+  padding: 1rem;
+  background-color: lightcyan;
+}
+
+
+.section {
+  clear: both;
+  padding: 0;
+  margin: 0;
+}
+
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { 
+  margin-left: 0; 
+}
+
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1;
+}
+
+.span_3_of_3 {
+	width: 100%;
+}
+.span_2_of_3 {
+	width: 66.1%;
+}
+.span_1_of_3 {
+	width: 30%;
+}
+
+@media only screen and (max-width: 480px) {
+	.col { margin: 1% 0 1% 0%;}
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
